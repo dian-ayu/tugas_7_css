@@ -1,0 +1,27 @@
+body {
+  background-image: url("img/stupa_borobudur.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p.justify, div.repeat {
+  color: blue;
+  width: 620px;
+  height: 440px;
+  border: 3px solid red;
+  margin: 0 auto;
+  background-image: url("img/avocado.jpg");
+  background-repeat: repeat;
+  background-size: 36% 36%;
+  background-position: 5px 3px;
+  background-attachment: scroll;
+  text-align: justify;
+}
+
+p.justify {
+  padding-top: 15px;
+}
+
+div.repeat {
+  background-repeat: repeat-x;
+}
